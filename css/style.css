@@ -1,0 +1,40 @@
+.h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+.buttonSort {
+  padding: 4px;
+  padding-bottom: 3px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/arrow-down-short.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: transform .3s ease-in-out;
+}
+
+.buttonSort:focus {
+  outline: none;
+}
+
+@media(max-width: 1200px) {
+  .input {
+    margin-bottom: 20px;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+}
+
